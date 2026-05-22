@@ -60,11 +60,11 @@ fetch(BASE_URl + "/products")
 
 document.addEventListener("click", (e) => {
 
-  const btn = e.target.closest(".eyeBtn");
+    const btn = e.target.closest(".eyeBtn");
 
-  if (btn) {
-    const id = btn.dataset.id;
-    window.location.href = `singel.html?id=${id}`;
-  }
+    if (btn) {
+        const id = btn.dataset.id;
+        window.location.href = `singel.html?id=${id}`;
+    }
 
 });
